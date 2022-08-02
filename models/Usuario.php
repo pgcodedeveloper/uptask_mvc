@@ -90,7 +90,7 @@ class Usuario extends ActiveRecord{
     }
 
     //Verificar el password actual
-    public function comprobar_passwor(){
+    public function comprobar_password(){
         return password_verify($this->password_actual,$this->password);
     }
     public function crearToken(){

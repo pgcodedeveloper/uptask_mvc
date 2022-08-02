@@ -110,7 +110,6 @@ class DashboardController{
             $usuario= Usuario::find($_SESSION['id']);
 
             $usuario->sincronizar($_POST);
-
             $alertas= $usuario->validarPasswordPerfil();
 
             if(empty($alertas)){
