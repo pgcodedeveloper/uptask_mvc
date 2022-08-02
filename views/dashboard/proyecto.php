@@ -1,6 +1,9 @@
 <?php include_once __DIR__ . '/header_dash.php'; ?>
 
 <div class="contenedor-sm">
+    <div class="contenedor-atras">
+        <a href="/proyectos" class="boton-atras">Volver</a>
+    </div>
     <div class="contenedor-nueva-tarea">
         <button type="button" class="eliminar-proyecto" id="eliminar-proyecto">Eliminar Proyecto</button>
         <button type="button" class="agregar-tarea" id="agregar-tarea">

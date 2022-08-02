@@ -6,3 +6,4 @@
 
         <div class="contenido">
             <h2 class="nombre-pagina" title="Click para modificar"><?php echo $titulo; ?></h2>
+            

@@ -1,5 +1,8 @@
 <?php include_once __DIR__ . '/header_dash.php'; ?>
 
+<div class="contenedor-atras">
+    <a href="/proyectos" class="boton-atras">Volver</a>
+</div>
 <div class="contenedor-sm">
     <?php include_once __DIR__ . '/../templates/alertas.php'; ?>
 
