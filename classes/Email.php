@@ -33,7 +33,7 @@ class Email
         $mail->Username = 'uptaskproyectos@gmail.com';
         $mail->Password = 'wrnmcbuennpzriwf';
 
-        $mail->setFrom('uptaskproyectos@gmail.com','Pablo Gillespie');
+        $mail->setFrom('uptaskproyectos@gmail.com');
         $mail->addAddress($this->email);
         $mail->Subject ="Confirma tu Cuenta";
 
@@ -67,9 +67,9 @@ class Email
         $mail->Username = 'uptaskproyectos@gmail.com';
         $mail->Password = 'wrnmcbuennpzriwf';
 
-        $mail->setFrom('uptaskproyectos@gmail.com','Pablo Gillespie');
+        $mail->setFrom('uptaskproyectos@gmail.com');
         $mail->addAddress($this->email);
-        $mail->Subject ="Confirma tu Cuenta";
+        $mail->Subject ="Restablece tu Password";
 
         $mail->isHTML(true);
         $mail->CharSet = 'UTF-8';
